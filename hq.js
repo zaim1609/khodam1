@@ -12,17 +12,18 @@ function teken() {
     if (nama !='') {
         var place = document.getElementById('place');
     
-    var nilai = Math.floor(Math.random() * 10);
+    var nilai = Math.floor(Math.random() * 11);
 
     var khodam = [  "kutu kupret",
-        "kantong kresek",
+        "pangeran cinta",
         "kucing muntaber",
-        "sponsbob",
+        "Tuyul Miskin",
         "kadal divabel",
         "naga indosiar",
         "Janda pirang",
         "macan maung",
-        "ulet bulu",
+        "Kuntilanak Jomblo",
+        "bulu babi",
         "segel sosis sonice"]
 
     var hasil = khodam[nilai]
